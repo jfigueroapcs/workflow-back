@@ -1,0 +1,27 @@
+{
+  "name": "code-challenge",
+  "version": "1.0.0",
+  "description": "Este es el package para el backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch ./app.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "standard": "^17.1.0"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "4.18.2",
+    "graph": "^0.2.0",
+    "mongodb": "^6.1.0",
+    "slugify": "^1.6.6",
+    "zod": "^3.22.4"
+  }
+}

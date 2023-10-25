@@ -1,0 +1,13 @@
+[
+  {
+    "title": "First Workflow",
+    "slug": "first-workflow",
+    "description": "Description of workfow",
+    "workflow": []
+  },
+  {
+    "id": "23fc3d89-6e08-4556-8f5d-8a9060c23ded",
+    "slug": "title-de-el-workflow12",
+    "title": "title de el workflow12"
+  }
+]

@@ -1,0 +1,49 @@
+{
+  "nodes": [
+    {
+      "id": "0",
+      "type": "init",
+      "data": {
+        "name": "Init"
+      },
+      "position": {
+        "x": 250,
+        "y": 25
+      }
+    },
+    {
+      "id": "1",
+      "type": "condition",
+      "data": {
+        "name": "Condition"
+      },
+      "position": {
+        "x": 100,
+        "y": 200
+      }
+    },
+    {
+      "id": "2",
+      "type": "action",
+      "data": {
+        "name": "Action"
+      },
+      "position": {
+        "x": 400,
+        "y": 200
+      }
+    },
+    {
+      "id": "3",
+      "type": "end",
+      "data": {
+        "name": "End"
+      },
+      "position": {
+        "x": 250,
+        "y": 400
+      }
+    }
+  ],
+  "edges": []
+}

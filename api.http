@@ -1,0 +1,68 @@
+GET http://localhost:1337
+
+### create
+POST http://localhost:1337/workflow
+Content-Type: application/json
+
+{
+  "title": "title de el workflow",
+  "condicions": [
+    { 
+        "name": "condition 1",
+        "dir": "init"
+    },
+    { 
+        "name": "condition 2",
+        "dir": "init"
+    },
+    { 
+        "name": "condition 3",
+        "dir": "a3"
+    },
+    { 
+        "name": "condition 4",
+        "dir": "a4"
+    }
+  ],
+  "actions": [
+    { 
+        "name": "action 1",
+        "dir": "c1"
+    },
+    { 
+        "name": "action 2",
+        "dir": "a1"
+    },
+    { 
+        "name": "action 3",
+        "dir": "c2"
+    },
+    { 
+        "name": "action 4",
+        "dir": "c4"
+    }
+  ]
+}
+
+### get By slug
+GET http://localhost:1337/workflow/first-workflow
+
+### get All 
+GET http://localhost:1337/workflow
+
+### create
+POST http://localhost:1337/workflow
+Content-Type: application/json
+
+{
+    "title": "title de el workflow12"
+}
+
+
+### create 
+POST http://localhost:1337/workflow
+Content-Type: application/json
+
+{
+    "title": "title de el workflow12"
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "title": "First Workflow",
+    "slug": "first-workflow",
+    "description": "Description of workfow",
+    "workflow": {
+      "nodes": [
+        {
+          "id": "0",
+          "type": "init",
+          "data": { "name": "Init" },
+          "position": { "x": 345, "y": 210 }
+        },
+        {
+          "id": "1",
+          "type": "condition",
+          "data": { "name": "Condition" },
+          "position": { "x": 100, "y": 305 }
+        },
+        {
+          "id": "2",
+          "type": "action",
+          "data": { "name": "Action" },
+          "position": { "x": 550, "y": 305 }
+        },
+        {
+          "id": "3",
+          "type": "end",
+          "data": { "name": "End" },
+          "position": { "x": 345, "y": 460 }
+        }
+      ],
+      "edges": [
+        
+      ]
+    }
+  }
+]

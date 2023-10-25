@@ -1,0 +1,46 @@
+[
+    {
+        "id": "init",
+        "type": "init",
+        "data": {
+            "name": "Init"
+        },
+        "position": {
+            "x": 250,
+            "y": 25
+        }
+    },
+    {
+        "id": "condition-1",
+        "position": {
+            "x": 10,
+            "y": 200
+        },
+        "type": "condition",
+        "data": {
+            "name": "Condition 1"
+        }
+    },
+    {
+        "id": "action-1",
+        "data": {
+            "name": "Action 1"
+        },
+        "position": {
+            "x": 250,
+            "y": 400
+        },
+        "type": "action"
+    },
+    {
+        "id": "end",
+        "type": "end",
+        "data": {
+            "name": "End"
+        },
+        "position": {
+            "x": 250,
+            "y": 600
+        }
+    }
+]
