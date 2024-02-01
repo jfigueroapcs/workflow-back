@@ -4,7 +4,7 @@ const workflowSchema = z.object({
     title: z.string({
         invalid_type_error: 'Workflows title must be a string',
         required_error: 'Workflows title is required.'
-    }),
+    })
     // condition: z.string({
     //     invalid_type_error: 'Workflows first condition must be a string',
     //     required_error: 'Workflows first condition is required.'
