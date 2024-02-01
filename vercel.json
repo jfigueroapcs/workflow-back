@@ -5,6 +5,6 @@
   ],
   "version": 2,
   "env": {
-    
+    "NODE_OPTIONS": "--openssl-legacy-provider"
   }
 }
