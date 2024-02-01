@@ -2,7 +2,7 @@
   "name": "code-challenge",
   "version": "1.0.0",
   "description": "Este es el package para el backend",
-  "main": "index.js",
+  "main": "app.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node --watch ./app.mjs"
