@@ -1,5 +1,7 @@
 GET http://localhost:1337
 
+
+
 ### create
 POST http://localhost:1337/workflow
 Content-Type: application/json
@@ -66,3 +68,8 @@ Content-Type: application/json
 {
     "title": "title de el workflow12"
 }
+
+
+
+### backend online
+GET https://workflow-backend.netlify.app:1337
