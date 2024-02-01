@@ -1,0 +1,10 @@
+{
+  "name": "workflow backend",
+  "builds": [
+    { "src": "app.mjs", "use": "@now/node-server" }
+  ],
+  "version": 2,
+  "env": {
+    "MONGODB_URI": "@my-mongodb-uri"
+  }
+}
